@@ -1,0 +1,23 @@
+{
+  "name": "lepleinair",
+  "version": "1.0.0",
+  "description": "Livrable du projet 3-OC- PhpSymfony",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guetso/OC---PhpSymfony---Projet-3.git"
+  },
+  "author": "HH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guetso/OC---PhpSymfony---Projet-3/issues"
+  },
+  "homepage": "https://github.com/Guetso/OC---PhpSymfony---Projet-3#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "bootstrap-icons": "^1.1.0"
+  }
+}
