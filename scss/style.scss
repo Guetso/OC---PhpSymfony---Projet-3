@@ -1,2 +1,3 @@
 @import "./variables_overrides"; // fichier permettant d'écraser les valeurs par défaut des variables de sass, à importer en 1er dans ce fichier
 @import "../node_modules/bootstrap/scss/bootstrap.scss"; // permet d'importer le scss de bootstrap dans le projet
+@import "./mystyle.scss";
