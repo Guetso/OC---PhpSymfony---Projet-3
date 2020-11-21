@@ -1,4 +1,5 @@
 header {
+  font-weight: bold;
   h1 {
     text-transform: uppercase;
     color: $secondary-light;
@@ -6,6 +7,14 @@ header {
   }
   span {
     color: $secondary-dark;
+    font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
     font-size: 1.2rem;
   }
+  .icon{
+    width: 100%;
+  }
+}
+
+.logo {
+  max-width: 180px;
 }
