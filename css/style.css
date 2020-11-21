@@ -9942,10 +9942,24 @@ header span {
 }
 header .icon {
   width: 100%;
+  max-width: 120px;
 }
 
 .logo {
   max-width: 180px;
+}
+
+.bg-custom-dark {
+  background-color: #134065;
+}
+
+nav {
+  font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
+  font-size: 19px;
+  letter-spacing: 0.3rem;
+}
+nav .divider {
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
