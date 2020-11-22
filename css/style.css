@@ -9930,13 +9930,15 @@ h3 {
 header {
   font-weight: bold;
 }
-header h1, header h1 > span {
+header h1,
+header h1 > span {
   text-transform: uppercase;
   color: #019CC5;
   font-size: 1.4rem;
 }
 @media all and (min-width: 992px) {
-  header h1, header h1 > span {
+  header h1,
+header h1 > span {
     font-size: 1.6rem;
   }
 }
@@ -9973,6 +9975,19 @@ nav {
 }
 nav .divider {
   font-size: 15px;
+}
+
+footer {
+  font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
+  font-weight: bold;
+  background-color: #F7A93A;
+}
+footer a {
+  color: #134065;
+}
+footer .social__icon {
+  width: 2rem;
+  color: #134065;
 }
 
 /*# sourceMappingURL=style.css.map */

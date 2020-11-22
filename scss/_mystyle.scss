@@ -1,6 +1,7 @@
 header {
   font-weight: bold;
-  h1, h1>span {
+  h1,
+  h1 > span {
     text-transform: uppercase;
     color: $secondary-light;
     font-size: 1.4rem;
@@ -16,7 +17,7 @@ header {
       font-size: 1.4rem;
     }
   }
-  .icon{
+  .icon {
     width: 100%;
     max-width: 100px;
     &--head {
@@ -34,10 +35,26 @@ header {
 }
 
 nav {
-  font-family:"Helvetica Neue", "Helvetica Neue LT Std 45 Light" ;
+  font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
   font-size: 19px;
   letter-spacing: 0.3rem;
   .divider {
     font-size: 15px;
+  }
+}
+
+footer {
+  font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
+  font-weight: bold;
+  background-color: $third;
+
+  a {
+    color: $secondary-dark;
+  }
+  .social {
+    &__icon {
+      width: 2rem;
+      color: $secondary-dark;
+    }
   }
 }
