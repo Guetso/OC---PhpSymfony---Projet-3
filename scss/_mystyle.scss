@@ -1,18 +1,27 @@
 header {
   font-weight: bold;
-  h1 {
+  h1, h1>span {
     text-transform: uppercase;
     color: $secondary-light;
     font-size: 1.4rem;
+    @media all and (min-width: 992px) {
+      font-size: 1.6rem;
+    }
   }
   span {
     color: $secondary-dark;
     font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
     font-size: 1.2rem;
+    @media all and (min-width: 992px) {
+      font-size: 1.4rem;
+    }
   }
   .icon{
     width: 100%;
     max-width: 100px;
+    &--head {
+      max-width: 120px;
+    }
   }
 }
 

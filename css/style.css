@@ -9930,19 +9930,32 @@ h3 {
 header {
   font-weight: bold;
 }
-header h1 {
+header h1, header h1 > span {
   text-transform: uppercase;
   color: #019CC5;
   font-size: 1.4rem;
+}
+@media all and (min-width: 992px) {
+  header h1, header h1 > span {
+    font-size: 1.6rem;
+  }
 }
 header span {
   color: #134065;
   font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
   font-size: 1.2rem;
 }
+@media all and (min-width: 992px) {
+  header span {
+    font-size: 1.4rem;
+  }
+}
 header .icon {
   width: 100%;
   max-width: 100px;
+}
+header .icon--head {
+  max-width: 120px;
 }
 
 .logo {
