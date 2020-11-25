@@ -5,6 +5,9 @@ header {
     color: $secondary-light;
     font-size: 1.4rem;
   }
+  h2 {
+    text-transform: uppercase;
+  }
   span {
     color: $secondary-dark;
     font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
@@ -35,4 +38,13 @@ nav {
 
 p {
   font-family: "robotolight", 'Times New Roman', Times, serif;
+}
+
+aside {
+  background-color: $secondary-dark;
+  color: white;
+  font-size: 14px;
+  h4 {
+    font-size: 18px;
+  }
 }
