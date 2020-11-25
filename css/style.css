@@ -10016,4 +10016,8 @@ iframe {
   text-decoration: underline;
 }
 
+.real, .year, .date {
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
