@@ -9999,6 +9999,15 @@ footer a:hover {
   color: #019CC5;
 }
 
+iframe {
+  width: 100%;
+}
+
+.adress {
+  color: #134065;
+  font-size: 1.5rem;
+}
+
 .card a {
   color: #134065;
 }
