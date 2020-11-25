@@ -9952,7 +9952,7 @@ header .icon {
   max-width: 120px;
 }
 header .icon--desktop {
-  max-width: 7rem;
+  max-width: 6rem;
 }
 
 h2 {
@@ -9997,6 +9997,14 @@ footer, footer a {
 
 footer a:hover {
   color: #019CC5;
+}
+
+.card a {
+  color: #134065;
+}
+.card a:hover {
+  color: #019CC5;
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */

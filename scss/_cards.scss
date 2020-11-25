@@ -1,0 +1,9 @@
+.card {
+  a {
+    color: $secondary-dark;
+    &:hover {
+      color: $secondary-light;
+      text-decoration: underline;
+    }
+  }
+}
