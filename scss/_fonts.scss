@@ -32,3 +32,16 @@
   font-weight: normal;
   src: local("Helvetica Neue LT Std 77 Bold Condensed"), url("../assets/fonts/helvetica-neue/HelveticaNeueLTStd-BdCn.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'robotolight';
+  src: url('../assets/fonts/roboto/roboto_light_macroman/Roboto-Light-webfont.eot');
+  src: url('../assets/fonts/roboto/roboto_light_macroman/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../assets/fonts/roboto/roboto_light_macroman/Roboto-Light-webfont.woff2') format('woff2'),
+       url('../assets/fonts/roboto/roboto_light_macroman/Roboto-Light-webfont.woff') format('woff'),
+       url('../assets/fonts/roboto/roboto_light_macroman/Roboto-Light-webfont.ttf') format('truetype'),
+       url('../assets/fonts/roboto/roboto_light_macroman/Roboto-Light-webfont.svg#robotolight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
