@@ -9942,9 +9942,6 @@ header h1 {
   color: #019CC5;
   font-size: 1.4rem;
 }
-header h2 {
-  text-transform: uppercase;
-}
 header span {
   color: #134065;
   font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
@@ -9953,6 +9950,11 @@ header span {
 header .icon {
   width: 100%;
   max-width: 120px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
 }
 
 .logo {

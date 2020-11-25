@@ -5,18 +5,21 @@ header {
     color: $secondary-light;
     font-size: 1.4rem;
   }
-  h2 {
-    text-transform: uppercase;
-  }
+
   span {
     color: $secondary-dark;
     font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
     font-size: 1.2rem;
   }
-  .icon{
+  .icon {
     width: 100%;
     max-width: 120px;
   }
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
 }
 
 .logo {
@@ -28,7 +31,7 @@ header {
 }
 
 nav {
-  font-family:"Helvetica Neue", "Helvetica Neue LT Std 45 Light" ;
+  font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
   font-size: 19px;
   letter-spacing: 0.3rem;
   .divider {
@@ -37,7 +40,7 @@ nav {
 }
 
 p {
-  font-family: "robotolight", 'Times New Roman', Times, serif;
+  font-family: "robotolight", "Times New Roman", Times, serif;
 }
 
 aside {
