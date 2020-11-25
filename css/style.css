@@ -9990,4 +9990,13 @@ aside h4 {
   font-size: 18px;
 }
 
+footer, footer a {
+  color: #134065;
+  text-transform: uppercase;
+}
+
+footer a:hover {
+  color: #019CC5;
+}
+
 /*# sourceMappingURL=style.css.map */

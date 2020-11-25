@@ -54,3 +54,14 @@ aside {
     font-size: 18px;
   }
 }
+
+footer, footer a {
+  color: $secondary-dark;
+  text-transform: uppercase;
+}
+
+footer a {
+  &:hover {
+    color: $secondary-light;
+  }
+}
