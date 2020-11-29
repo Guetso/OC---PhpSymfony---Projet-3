@@ -10032,4 +10032,16 @@ iframe {
   font-size: 2rem;
 }
 
+.day {
+  font-size: 1.4rem;
+}
+
+.booker {
+  color: white;
+}
+
+.increase, .decrease, .count {
+  font-size: 2rem;
+}
+
 /*# sourceMappingURL=style.css.map */
