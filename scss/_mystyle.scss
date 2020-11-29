@@ -9,6 +9,7 @@ header {
       font-size: 1.6rem;
     }
   }
+
   span {
     color: $secondary-dark;
     font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
@@ -19,11 +20,16 @@ header {
   }
   .icon {
     width: 100%;
-    max-width: 100px;
-    &--head {
-      max-width: 120px;
+    max-width: 120px;
+    &--desktop {
+      max-width: 6rem;
     }
   }
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
 }
 
 .logo {
@@ -43,18 +49,33 @@ nav {
   }
 }
 
-footer {
-  font-family: "Helvetica Neue", "Helvetica Neue LT Std 45 Light";
-  font-weight: bold;
-  background-color: $third;
+p {
+  font-family: "robotolight", "Times New Roman", Times, serif;
+}
 
-  a {
-    color: $secondary-dark;
+aside {
+  background-color: $secondary-dark;
+  color: white;
+  font-size: 14px;
+  h4 {
+    font-size: 18px;
   }
-  .social {
-    &__icon {
-      width: 2rem;
-      color: $secondary-dark;
-    }
+}
+
+footer, footer a {
+  color: $secondary-dark;
+  text-transform: uppercase;
+}
+
+footer a {
+  &:hover {
+    color: $secondary-light;
   }
+}
+
+iframe { width: 100%; }
+
+.adress {
+  color: $secondary-dark;
+  font-size: 1.5rem;
 }
