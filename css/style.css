@@ -9961,9 +9961,6 @@ header span {
 }
 header .icon {
   width: 100%;
-  max-width: 100px;
-}
-header .icon--head {
   max-width: 120px;
 }
 header .icon--desktop {
